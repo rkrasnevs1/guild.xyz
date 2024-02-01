@@ -40,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the r
 If you encounter the error `ERR_OSSL_EVP_UNSUPPORTED` you can do :
 
 ```bash
-export NODE_OPTIONS=--openssl-legacy-provider
+
 npm i --force
 npm run dev
 ```
